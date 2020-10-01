@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jquery</title>
+<link rel='stylesheet' href='Contents/default.css'/>
+</head>
+<body>
+<div id='container'>
+<header>
+<hgroup id='headerTxt'>
+<h1>Welcome to my Project</h1>
+
+</hgroup>
+</header>
+<nav>
+<a href='https://www.isdb-bisew.org/'>IsDB-BISEW</a>
+</nav>
+<div role='main'>
+<div id='calculator'>
+<table>
+<tr>
+<td colspan='4'><input id='txtResult' type='text' readonly='readonly'></td>
+</tr>
+<tr>
+<td colspan='4'><input id='txtInput' type='text'></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><button id='btnClearEntry'>CE</button></td>
+<td><button id='btnClear'>C</button></td>
+</tr>
+<tr>
+<td><button id='btnNumber7'>7</button></td>
+<td><button id='btnNumber8'>8</button></td>
+<td><button id='btnNumber9'>9</button></td>
+<td><button id='btnPlus'>+</button></td>
+</tr>
+<tr>
+<td><button id='btnNumber4'>4</button></td>
+<td><button id='btnNumber5'>5</button></td>
+<td><button id='btnNumber6'>6</button></td>
+<td><button id='btnMinus'>-</button></td>
+</tr>
+<tr>
+<td><button id='btnNumber1'>1</button></td>
+<td><button id='btnNumber2'>2</button></td>
+<td><button id='btnNumber3'>3</button></td>
+<td><button id='btnNumber0'>0</button></td>
+</tr>
+<tr>
+<td></td>
+
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+<footer>
+
+</footer>
+</div>
+
+<script src='scripts/jquery-3.5.1.js'></script>
+
+<script src='scripts/default.js'></script>
+<script>$(document).ready(function(){calculatorNamespace.initialize();})</script>
+</body>
+</html>
